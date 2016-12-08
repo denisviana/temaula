@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group >
+
+        <item
+            android:id="@+id/bt_disciplinas"
+            android:title="Disciplinas"
+            android:icon="@drawable/open_book" />
+
+        <item
+            android:id="@+id/bt_horarios"
+            android:title="Horários de Aulas"
+            android:icon="@drawable/alarm_clock"/>
+        <item
+            android:id="@+id/notas_provas"
+            android:title="Notas de Provas"
+            android:icon="@drawable/bar_chart"/>
+        <item
+            android:id="@+id/datas_provas"
+            android:title="Calendário de Provas"
+            android:icon="@drawable/calendar"/>
+
+    </group>
+
+</menu>

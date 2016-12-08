@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/horario">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/relogio_horario"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:focusable="false"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:id="@+id/horario_aula"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:focusable="false"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/disciplina_horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:focusable="false"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/prof_horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="left"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/cor_horario"
+        android:focusable="false"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>

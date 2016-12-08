@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_height="35dp"
+            android:layout_width="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/pressed_color"
+            />
+
+        <TextView
+            android:id="@+id/data_avaliacao"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circulo"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+
+        <TextView
+            android:id="@+id/tipo_avaliacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/disciplina_avaliacao"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/contagem_dias_avaliacao"
+            android:layout_width="match_parent"
+
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

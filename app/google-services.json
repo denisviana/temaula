@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004620530565",
+    "firebase_url": "https://faculdade-app.firebaseio.com",
+    "project_id": "faculdade-app",
+    "storage_bucket": "faculdade-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004620530565:android:d152b34592d7fea5",
+        "android_client_info": {
+          "package_name": "usuario.app.projetofaculdade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004620530565-geqlekg1okda12c4lhkb3rou4ten12pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_xeaQb2MAxZSY3wzIKFoTSgMdDjMjTI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

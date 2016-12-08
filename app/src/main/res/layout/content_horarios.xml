@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diaDaSemanaTitle"
+        android:gravity="start"
+        android:text="Segunda-Feira"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+
+    </LinearLayout>
+
+    <ListView
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_key"
+        android:id="@+id/listViewHorarios">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/list_horarios_vazio"
+        android:gravity="center"
+        android:id="@+id/horarios_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="usuario.app.temaula" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="usuario.app.temaula.activitys.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeCustom" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="usuario.app.temaula.activitys.Activity_Disciplinas"
+            android:label="@string/title_activity_disciplinas"
+            android:parentActivityName="usuario.app.temaula.activitys.MainActivity"
+            android:theme="@style/AppThemeCustom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="usuario.app.temaula.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name="usuario.app.temaula.dialogs.DialogAdicionarHorarios"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="usuario.app.temaula.activitys.Activity_Horarios"
+            android:label="@string/title_activity_teste_tabs"
+            android:parentActivityName="usuario.app.temaula.activitys.MainActivity"
+            android:theme="@style/AppThemeCustom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="usuario.app.temaula.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name="usuario.app.temaula.activitys.ActivityDatasProvas"
+            android:label="@string/title_avaliacoes"
+            android:parentActivityName="usuario.app.temaula.activitys.MainActivity"
+            android:theme="@style/AppThemeCustom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="usuario.app.temaula.activitys.MainActivity" />
+        </activity>
+
+        <service android:name="usuario.app.temaula.services.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="usuario.app.temaula.services.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

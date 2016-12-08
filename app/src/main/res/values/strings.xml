@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Tem Aula!</string>
+    <string name="titulo">Tem Aula!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_disciplinas">Disciplinas</string>
+    <string name="nome_da_disciplina">Nome da Disciplina</string>
+    <string name="tipo_presencial">Presencial</string>
+    <string name="tipo_ead">EAD</string>
+    <string name="nome_professor">Nome do Professor</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="fechar">Fechar</string>
+    <string name="title_avaliacoes">Avaliações</string>
+    <string name="lista_disciplinas_vazia">Nenhuma Disciplina Cadastrada, por favor clique no botão flutuante no canto da tela para adicionar disciplinas</string>
+
+    <string-array name="disciplinas">
+        <item>Análise e Projetos</item>
+        <item>Redes de Computadores</item>
+        <item>Comunicação e Expressão</item>
+        <item>Pesquisa Operacional</item>
+        <item>Matemática Discreta</item>
+        <item>Administração Geral</item>
+        <item>Arquitetura e Org. de Computadores</item>
+        <item>Inglês I</item>
+        <item>Inglês II</item>
+        <item>Cálculo Integral</item>
+        <item>Algoritmos</item>
+        <item>Fundamento de Sistemas de Informação</item>
+        <item>Matemática Básica</item>
+        <item>Metodologia</item>
+        <item>Introdução a Programação</item>
+        <item>Lógica</item>
+        <item>Tópicos Conteporâneos I</item>
+        <item>Sistemas Operacionais</item>
+        <item>Interação Humano-Computador</item>
+        <item>Projeto Prático II</item>
+        <item>Engenharia de Software</item>
+        <item>Programação Estruturada</item>
+        <item>Sistemas Integrados</item>
+        <item>Direito na Computação</item>
+        <item>Programação Orientada a Objetos</item>
+        <item>Estrutura de Dados</item>
+        <item>Banco de Dados</item>
+        <item>Projeto Prático I</item>
+        <item>Métodos Quantitativos</item>
+    </string-array>
+
+    <string-array name="siglas">
+        <item>POO</item>
+        <item>ED</item>
+        <item>BD</item>
+        <item>PP</item>
+        <item>MQ</item>
+    </string-array>
+
+    <string name="title_activity_activity__horarios">Horários de Aulas</string>
+    <string name="segundafeira">Segunda-Feira</string>
+    <string name="tercafeira">Terça-Feira</string>
+    <string name="quartafeira">Quarta-Feira</string>
+    <string name="quintafeira">Quinta-Feira</string>
+    <string name="sextafeira">Sexta-Feira</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
+    <string name="title_activity_horarios_">Horários de Aulas</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_teste_tabs">Teste_tabs</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="remover">Remover</string>
+    <string name="alterar">Alterar</string>
+    <string name="list_horarios_vazio">Nennhum horario adicionado. Para adicionar horarios, pressione o botão + no canto da tela.</string>
+</resources>
